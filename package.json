@@ -24,6 +24,7 @@
   "homepage": "https://github.com/titaniumbones/assignment-web-skills-intro#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "eslint": "^6.4.0",
     "jquery": "^3.4.1",
     "jsdom": "^15.1.1"
   },
