@@ -28,13 +28,13 @@ main>* {
 
 aside {
     background-color: rgba(143, 81, 188, 0.3);
-    grid-area:
+    grid-area: footer;
 }
 
 
 section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
-    grid-area:
+    grid-area: sidebar;
     display: flex; 
     flex-direction:
     justify-content:            /*these last two are optional*/
@@ -49,12 +49,13 @@ section.sidebar img {
 
 nav {
     background-color: rgba(30,200,30,0.3);
+    grid-area: header;
 
 }
 
 article {
     background-color: rgba(30,30,30,0.4);
-    grid-area:
+    grid-area: content;
     display: grid ;
     grid-template-columns: repeat (5, 1fr);
     grid-template-rows: repeat (5, 1fr);
