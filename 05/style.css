@@ -1,4 +1,24 @@
 article {
     background:  #0000;;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: rgb(37, 194, 199);
+}
+
+section.main {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+section.sources {
+    margin-right: 10px;
+    margin-left: 10px;
+    border:  rgb(0, 0, 0) 1px;
+    border-radius: 10px;
+}
+
+section.main img {
+    float: left;
 }
