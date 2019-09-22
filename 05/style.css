@@ -18,6 +18,8 @@ header {
 section.main {
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -31,4 +33,6 @@ section.sources {
 
 section.main img {
     float: left;
+    Width: 100%;
+    margin: 10px;
 }
