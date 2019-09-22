@@ -9,8 +9,10 @@ html {
 }
 
 main {
-    border: 10px black solid;
-    padding: 50rem;                      
+    border: 2px black solid;
+    padding: 10px;    
+    width: 50rem;
+    border-radius: 10px;               
 }
 
 header {
