@@ -19,7 +19,7 @@ main {
 
 
 main>* {
-    border: orange solid 1px;   /*sorry for the horrible color*/
+    border: orange solid 1px;
     border-radius: 10px;
     text-align: center;         /*keep the text centered horizontally*/
     
