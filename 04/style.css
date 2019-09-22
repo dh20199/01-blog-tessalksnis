@@ -97,8 +97,8 @@ article div section {
 }
 
 #box5 {
-    grid-row: 1;
-    grid-column: 5;
+    grid-row: 1/2;
+    grid-column: 5/6;
     background-color: rgba(200,10,10,0.3)
 }
 
@@ -115,7 +115,7 @@ article div section {
         grid-template-rows: 80px 1fr 120px 80px;
     }
     section.sidebar {
-        flex-direction: ;       /* when the screen shrinks, change direction.*/
+        flex-direction: row;       /* when the screen shrinks, change direction.*/
     }
     
     section.sidebar img {       /* I'vefilled these in for you; feel free to fool with them if you like. */
