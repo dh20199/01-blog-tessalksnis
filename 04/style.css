@@ -77,28 +77,28 @@ article div section {
 
 /* use the grid-row and grid-column values to place the boxes precisely onto the grid */
 #box1 {
-    grid-row:
-    grid-column:
+    grid-row: 1;
+    grid-column: 1;
 }
 
 #box2 {
-    grid-row:
-    grid-column:
+    grid-row: 2;
+    grid-column: 2;
 }
 
 #box3 {
-    grid-row:
-    grid-column:
+    grid-row: 3;
+    grid-column: 3;
 }
 
 #box4 {
-    grid-row:
-    grid-column:
+    grid-row: 4;
+    grid-column: 4;
 }
 
 #box5 {
-    grid-row:
-    grid-column:
+    grid-row: 5;
+    grid-column: 5;
     background-color: rgba(200,10,10,0.3)
 }
 
