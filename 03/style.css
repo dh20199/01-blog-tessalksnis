@@ -11,7 +11,7 @@ html {
 main {
     border: 2px black solid;
     padding: 10px;    
-    width: 50rem;
+    max-width: 50rem;
     border-radius: 10px;               
 }
 
@@ -22,7 +22,9 @@ header {
 }
 
 article {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flow-root;
 }
 
 article img {
@@ -30,7 +32,7 @@ article img {
     float: left;
     border: visible;
     border-radius: 5px;
-    margin-right: 40rem;
+    margin-right: 5px;
 }
 
 footer {
@@ -38,7 +40,7 @@ footer {
     min-height: 5rem;
     /* please don't change these values; you will have 
        plenty of chance to play with flex in the next problem */
-    display: flow-root;
+    display: flex;
     flex-order: row;
     justify-content: space-evenly;
     align-items: center;
@@ -47,7 +49,6 @@ footer {
 button {
     /* this one is free! */
     min-width: 5rem;
-    text-align: center;
 }
 .button {
     
