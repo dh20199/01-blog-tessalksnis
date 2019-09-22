@@ -36,9 +36,9 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area: side;
     display: flex; 
-    flex-direction:
-    justify-content:            /*these last two are optional*/
-    align-items:
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section.sidebar img {
