@@ -1,7 +1,6 @@
 article {
     background:  #0000;;
     display: flex;
-    flex-direction: column;
 }
 header {
     background-color: rgb(37, 194, 199);
