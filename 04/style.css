@@ -59,7 +59,7 @@ article {
     display: grid ;
     grid-template-columns: repeat (5, 1fr);
     grid-template-rows: repeat (5, 1fr);
-    grid-gap:                   /*the gap is optional*/    
+    grid-gap: 10px;
 }
 
 /* these next two are just simple styling to make the div boxes visible */
