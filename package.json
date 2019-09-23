@@ -4,9 +4,10 @@
   "description": "An assignment for Digital History at University of Toronto. Tests basic Javascript skills.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -t 0 test/test.js --grep \"Problem 4\" --invert  --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults",
+    "test": "mocha -t 0 test/test.js   --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults",
     "test-less-confusing": "mocha -t 0 test/test.js --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults || true",
-    "watch": "mocha -t 0 test/test.js   --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults -w"
+    "watch": "mocha -t 0 test/test.js   --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults -w",
+    "test-main-only" : "mocha -t 0 test/test.js --grep \"Reflection\" --invert   --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults" 
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,6 @@
   "homepage": "https://github.com/titaniumbones/assignment-web-skills-intro#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "eslint": "^6.4.0",
     "jquery": "^3.4.1",
     "jsdom": "^15.1.1"
   },
