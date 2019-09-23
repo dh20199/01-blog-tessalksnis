@@ -1,6 +1,6 @@
 article {
-    background:  rgba(13, 132, 179, 0.445);;
     display: flex; 
+    background:  rgba(13, 132, 179, 0.445);;
     flex-direction: column;
     align-items: right;
     width: 100%;
