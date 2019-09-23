@@ -28,6 +28,8 @@ section.main {
 section.sources {
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(143, 228, 231);
     border:  rgb(0, 0, 0) 1px;
     border-radius: 10px;
     width: 100%;
