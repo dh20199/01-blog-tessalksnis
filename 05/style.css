@@ -30,8 +30,7 @@ section.sources {
     margin-left: 10px;
     margin-bottom: 15px;
     background-color: rgb(143, 228, 231);
-    align-items: center;
-    border:  rgb(0, 0, 0) 1px;
+    border:  rgb(0, 0, 0) 10px;
     border-radius: 10px;
     width: 100%;
 }
