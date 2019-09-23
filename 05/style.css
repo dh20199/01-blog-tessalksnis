@@ -4,7 +4,6 @@ article {
     flex-direction: column;
     align-items: right;
     width: 100%;
-    margin: 10px;
 }
 
 
@@ -37,5 +36,6 @@ section.sources {
 section.main img {
     float: right;
     Width: 100%;
-    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
