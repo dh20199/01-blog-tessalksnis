@@ -9,3 +9,8 @@ Semantic elements, like <article> and <section>, are elements that clearly defin
 
 ## Question 2 (150 words)
 #### In your CSS work, you learned how to change the presentation of material on the web without changing the content. Using a pen and paper, a drawing program, or (if you're feeling ambitious) real HTML and CSS, mock up 2 very different presentations of the information you displayed in your post. Put images of them on the Internet somewhere (but not in this repository) and link to them here. Write a brief paragraph discussing the effect of the presentaiton layer on the reader.
+
+The two additional versions of my blog post each show a different layout from my original html and css blog post. The first drawing of the blog post is a version that is far less well organized and therefore more confusing to the reader. This version has my name in place of the title of the page, with Boudica only being mentioned in the text below. The text, links, and image are placed in awkward places on the page. This layout has the effect of making the reader unsure of the subject of the page. The second drawing shows a much better layout, with Boudica’s name as the largest element on the page, followed by the image, and then the text. The flow of the page is much more clear and the reader can easily tell what the blog post is about. Clear layout is crucial to good web design.
+
+https://postimg.cc/9RTTXQsR (bad version)
+https://postimg.cc/Dmndfqy7 (good version)
